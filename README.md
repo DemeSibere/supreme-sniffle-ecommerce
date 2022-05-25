@@ -8,6 +8,19 @@ Your task is to build the back end for an e-commerce site by modifying starter c
 
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
 
+## Table of Contents
+- [Your Task](#your-task)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Mock-Up](#mock-up)
+- [Getting Started](#getting-started)
+- [Database Models](#database-models)
+- [Associations](#associations)
+- [CRUD Operations](#crud-operations)
+- [Seed Database](#seed-the-database) 
+- [License](#license)
+- [Questions](#questions)
+
 ## User Story
 
 ```md
@@ -46,7 +59,14 @@ The following animation shows the application's POST, PUT, and DELETE routes for
 
 ![In Insomnia Core, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/delete-put-post.gif)
 
-Your walkthrough video should also show the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core.
+The following walkthrough video demonstrates 
+  - How to create the schema from the MySQL shell
+  - How to seed the database from the command line 
+  - How to start the application’s server
+
+  To view the video click, [here](https://drive.google.com/file/d/1kpRI3_XeFbSnF3nMF9c1sIkB9P3Thoen/view) 
+
+The following walkthrough video shows the POST, PUT, and DELETE routes for products and tags being tested in Insomnia Core. To view the video, Click [here](https://drive.google.com/file/d/1nIjl-bXKHOHeF25sVBWAUn7GO98laoeu/view)
 
 ## Getting Started
 
@@ -168,7 +188,8 @@ You'll need to execute association methods on your Sequelize models to create th
 
 > **Hint:** Make sure you set up foreign key relationships that match the column we created in the respective models.
 
-### Fill Out the API Routes to Perform RESTful CRUD Operations
+### CRUD Operations
+  - ###### Fill Out the API Routes to Perform RESTful CRUD Operations
 
 Fill out the unfinished routes in `product-routes.js`, `tag-routes.js`, and `category-routes.js` to perform create, read, update, and delete operations using your Sequelize models.
 
@@ -184,6 +205,16 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
 
+## License
+![badge](https://img.shields.io/badge/license-Apache-brightgreen)
+<br />
+
+## Questions
+ For inquiries related to repo and additional questions
+
+Reach out to me on Github: [DemeSibere](https://github.com/DemeSibere)<br />
+
+Email me: demesibere16@gmail.com
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
